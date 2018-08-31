@@ -291,7 +291,7 @@ static const CGFloat kLabelsFontSize = 12.0f;
     
     //positioning for the dist slider line
     self.sliderLineBetweenHandles.frame = CGRectMake(self.leftHandle.position.x, self.sliderLine.frame.origin.y, self.rightHandle.position.x-self.leftHandle.position.x, self.lineHeight);
-    self.sliderLineBetweenHandles.cornerRadius = self.lineHeight / 2.0
+    self.sliderLineBetweenHandles.cornerRadius = self.lineHeight / 2.0;
 }
 
 - (void)updateLabelPositions {
